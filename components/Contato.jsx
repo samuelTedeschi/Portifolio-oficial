@@ -42,17 +42,29 @@ const Contato = () => {
                             <p className='py-6 uppercase text-sm tracking-winter text-gray-900'>Vamos nos conectar e fazer network, me siga nas redes sociais ou me mande um email.</p>
                         </div>
                         <div>
-                            <p className='uppercase pt-8 mt-10 '>Me Siga</p>
-                            <div className='flex items-center justify-between py-6'>
-                                <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaLinkedinIn size={20} className='text-sky-700'/>
+                            <p className='uppercase pt-8 mt-10 text-center '>Me Siga</p>
+                            <div className='flex items-center justify-between py-6 mx-12'>
+
+                            <a
+                            href='https://www.linkedin.com/in/samuel-tedeschi/'
+                            target='_blank'
+                            rel='noreferrer'
+                            >
+                                <div className='rounded-full shadow-lg shadow-gray-600 p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <FaLinkedinIn size={30} className='text-sky-700'/>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaGithub size={20} className='text-black'/>
+                            </a>
+
+                            
+                            <a
+                            href='https://github.com/samuelTedeschi'
+                            target='_blank'
+                            rel='noreferrer'
+                            >
+                                <div className='rounded-full shadow-lg shadow-gray-600 p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <FaGithub size={30} className='text-black'/>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <AiOutlineMail size={20} className='text-red-500'/>
-                                </div>
+                            </a>
                             </div>
                         </div>
                     </div>

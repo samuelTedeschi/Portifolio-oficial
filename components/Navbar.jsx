@@ -51,9 +51,9 @@ const Navbar = () => {
         className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
                 <Image 
-                    src="/../public/assets/logo/Samuel-Tedeschi.png" alt="" 
+                    src="/../public/assets/logo/samuelTedeschi.png" alt="" 
                     width='80' 
-                    height='40'
+                    height='80'
                 />
 
                 <div>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src="/../public/assets/logo/skills-logo.png" alt=""  width='40' height='10'/>
+                            <Image src="/../public/assets/logo/samuelTedeschi.png" alt=""  width='40' height='10'/>
 
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer' >
                                 <AiOutlineClose/>

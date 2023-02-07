@@ -19,7 +19,7 @@ const Sobre = () => {
                     </p>
                 </div>
 
-                <div className='w-full h-auto m-auto shadow-xl shadow-gray-300 bg-sky-600/50 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                <div className="w-full h-auto m-auto shadow-xl shadow-gray-600/60 bg-sky-900/80 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                     <Image className='rounded-xl' src={fotoPerfil} alt="" />
                 </div>
             </div>
