@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import propertyImg from 'public/assets/projetos/property.jpg'
+import tempoImg from 'public/assets/projetos/tempo.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -10,34 +10,34 @@ const property = () => {
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
 
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-                <Image className='absolute z-1' layout='fill' objectFit='cover' src={propertyImg} />
+                <Image className='absolute z-1' layout='fill' objectFit='cover' src={tempoImg} />
 
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>projeto modelo</h2>
-                    <h3>React / react / react</h3>
+                    <h2 className='py-2'>Weather App</h2>
+                    <h3>React / Next.js / OpemWeather</h3>
                 </div>
         </div>
 
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
-                <p>projeto</p>
-                <h2>projeto</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem architecto commodi praesentium quaerat, autem, nisi cumque dolore magnam ipsam hic. Quas sit similique sunt necessitatibus non, reiciendis accusamus ex?</p>
+                <p>Site</p>
+                <h2 className='mb-5'>Weather</h2>
+                <p className='mb-5'>Um site de previsão de tempo é uma plataforma on-line que fornece informações sobre as condições meteorológicas futuras para uma determinada localização. Ele usa dados meteorológicos e modelos climáticos para gerar previsões precisas sobre temperatura, umidade, vento, precipitação e condições climáticas.</p>
 
                 <a
-                href='https://github.com/fireclint/property-finder'
+                href='https://github.com/samuelTedeschi/weather-app'
                 target='_blank'
                 rel='noreferrer'
                 >
-                    <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                    <button className='px-8 py-2 mt-4 mr-8'>Codigo</button>
                 </a>
                 
                 <a
-                href='https://property-finder-development.web.app/'
+                href='https://weather-app-phi-rosy.vercel.app/'
                 target='_blank'
                 rel='noreferrer'
                 >
-                    <button className='px-8 py-2 mt-4'>Demo</button>
+                    <button className='px-8 py-2 mt-4'>Site</button>
                 </a>
             </div>
 
@@ -56,13 +56,7 @@ const property = () => {
                             <RiRadioButtonFill className='pr-1' /> Javascript
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Firebase
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Google API
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Zillow API
+                            <RiRadioButtonFill className='pr-1' /> OpemWeather
                         </p>
                     </div>
                 </div>
