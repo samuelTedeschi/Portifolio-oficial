@@ -3,13 +3,31 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
+
 
 const Main = () => {
+
+    const [text, count] = useTypewriter({
+        words:[
+            "Vamos construir algo inovador juntos",
+            "Explore meus porjetos",
+            "<Apaixonado por codigos/>"
+          ],
+    
+          loop:true,
+    
+          delaySpeed:2000,
+    })
+
   return (
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center '>
             <div>
-                <p className='uppercase text-sm tracking-winter text-gray-600'>Vamos construir algo inovador juntos</p>
+                <p className='uppercase text-sm tracking-winter text-gray-600'>
+                    {text}
+                    <Cursor cursorColor="blue"/>
+                </p>
 
                 <h1 className='py-4 text-gray-900'>
                     Olá, me chamo

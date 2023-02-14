@@ -92,7 +92,7 @@ const Navbar = () => {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src="/../public/assets/logo/samuelTedeschi.png" alt=""  width='40' height='10'/>
+                           
 
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer' >
                                 <AiOutlineClose/>
