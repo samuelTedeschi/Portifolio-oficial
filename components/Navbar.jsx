@@ -13,8 +13,8 @@ const Navbar = () => {
     
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
-    const [linkColor, setLinkColor] = useState('#1f2937');
+    const [navBg, setNavBg] = useState('#404040');
+    const [linkColor, setLinkColor] = useState('#D9D9D9');
     const router = useRouter()
 
     useEffect(()=>{
@@ -23,10 +23,10 @@ const Navbar = () => {
             
         ) {
             setNavBg ('transparent')
-            setLinkColor('#ecf0f3')
+            setLinkColor('#D9D9D9')
         } else {
-            setNavBg ('#ecf0f3')
-            setLinkColor('#1f2937')
+            setNavBg ('#404040')
+            setLinkColor('#D9D9D9')
         }
     },[router])
 
@@ -50,7 +50,7 @@ const Navbar = () => {
         style={{backgroundColor: `${navBg}`}}
         className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
-                <h3 className='text-sky-900 text-2xl '>
+                <h3 className='text-[#0D734D] text-2xl '>
                     <span>S </span>
                     <span>T</span>
                 </h3>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 <div 
                     className={
                     nav 
-                        ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500' 
+                        ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0D0D0D] p-10 ease-in duration-500' 
                         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                     }
                 >
@@ -94,7 +94,7 @@ const Navbar = () => {
                         <div className='flex w-full items-center justify-between'>
                            
 
-                            <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer' >
+                            <div onClick={handleNav} className='rounded-full shadow-lg shadow-green-900 p-3 cursor-pointer' >
                                 <AiOutlineClose/>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Navbar = () => {
                         </ul>
 
                         <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-sky-600'>Vamos nos conectar</p>
+                            <p className='uppercase tracking-widest text-[#0D734D]'>Vamos nos conectar</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hove:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn/>
