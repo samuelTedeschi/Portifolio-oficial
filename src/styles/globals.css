@@ -8,7 +8,7 @@ html{
 
 @layer base{
     body{
-        @apply bg-[#0D0D0D] text-[#D9D9D9] tracking-wide
+        @apply bg-[#2B2B26] text-[#F2F2F2] tracking-wide
     }
     
     h1, h2, h3, h4, h5, h6 {
@@ -28,6 +28,6 @@ html{
     }
 
     button{
-        @apply shadow-xl shadow-green-900/90 rounded-xl uppercase bg-gradient-to-r from-[#0D734D] to-[#078C4E] text-white
+        @apply shadow-xl shadow-[#0B0B09] rounded-xl uppercase bg-gradient-to-r from-[#EDBD82] to-[#FFBC70] text-[#0B0B09]
     }
 }

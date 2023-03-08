@@ -13,8 +13,8 @@ const Skills = () => {
 
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full '>
 
-            <p className='text-xl tracking-widest uppercase text-[#078C4E]'>Skils</p>
-            <h2 className='py-4 text-[#0D734D] '>Tecnologias que eu mais utilizo</h2>
+            <p className='text-xl tracking-widest uppercase text-[#FFAC47]'>Skils</p>
+            <h2 className='py-4 text-[#FBF6EF] '>Tecnologias que eu mais utilizo</h2>
 
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
 

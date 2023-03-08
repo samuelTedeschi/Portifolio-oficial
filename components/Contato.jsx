@@ -26,23 +26,23 @@ const Contato = () => {
   return (
     <div id='contato' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-            <p className='uppercase text-xl tracking-widest text-[#078C4E]'>Contato</p>
-            <h2 className='py-4 text-[#0D734D]'>Vamos conversar</h2>
+            <p className='uppercase text-xl tracking-widest text-[#E7A14B]'>Contato</p>
+            <h2 className='py-4 text-[#FBF6EF]'>Vamos conversar</h2>
 
             <div className='grid lg:grid-cols-5 gap-8'>
                 {/*Esquerdo */}
-                <div className='col-span-3 lg:col-span-2 w-full shadow-xl bg-[#404040] shadow-green-900/20 rounded-xl p-4'>
+                <div className='col-span-3 lg:col-span-2 w-full shadow-xl bg-[#191910] shadow-[#252518] rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
                             <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                         <div>
                             <h2 className='py-3'>Samuel Tedeschi</h2>
-                            <p>Desenvolvedor Front-end</p>
-                            <p className='py-6 uppercase text-sm tracking-winter text-gray-400'>Vamos nos conectar e fazer network, me siga nas redes sociais ou me mande um email.</p>
+                            <p className='text-[#E7A14B]'>Desenvolvedor Front-end</p>
+                            <p className='py-6 uppercase text-sm tracking-winter text-[#FFE2C2]'>Vamos nos conectar e fazer network, me siga nas redes sociais ou me mande um email.</p>
                         </div>
                         <div>
-                            <p className='uppercase pt-8 mt-10 text-center '>Me Siga</p>
+                            <p className='uppercase pt-8 mt-10  '>Me Siga:</p>
                             <div className='flex items-center justify-between py-6 mx-12'>
 
                             <a
@@ -50,7 +50,7 @@ const Contato = () => {
                             target='_blank'
                             rel='noreferrer'
                             >
-                                <div className='rounded-full shadow-lg shadow-green-900/30 p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-[#0B0B09] bg-[#2D2D25] p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <FaLinkedinIn size={30} className='text-sky-700'/>
                                 </div>
                             </a>
@@ -61,7 +61,7 @@ const Contato = () => {
                             target='_blank'
                             rel='noreferrer'
                             >
-                                <div className='rounded-full shadow-lg shadow-green-900/30 p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-[#0B0B09] bg-[#2D2D25] p-7 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <FaGithub size={30} className='text-black'/>
                                 </div>
                             </a>
@@ -70,35 +70,35 @@ const Contato = () => {
                     </div>
                 </div>
                 {/*Direito */}
-                <div className='col-span-3 w-full h-auto shadow-xl bg-[#404040] shadow-grenn-900/20 rounded-xl lg:p-4'>
+                <div className='col-span-3 w-full h-auto shadow-xl bg-[#191910] shadow-grenn-900/20 rounded-xl lg:p-4'>
                     <div className='py-4'>
                         
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Nome</label>
-                                    <input type="text" className='border-2 rounded-lg p-3 flex border-[#0D734D] ' name='from_name'/>
+                                    <input type="text" className='border-2 rounded-lg p-3 flex border-[#FFBC70] ' name='from_name'/>
                                 </div>
                             
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Telefone</label>
-                                    <input type='tel' className='border-2 rounded-lg p-3 flex border-[#0D734D] ' name='user_tel' />
+                                    <input type='tel' className='border-2 rounded-lg p-3 flex border-[#FFBC70] ' name='user_tel' />
                                 </div>
                             </div>
 
                             <div className='flex flex-col py-2 '>
                                 <label className='uppercase text-sm py-2'>Email</label>
-                                <input type="email" className='border-2 rounded-lg p-3 flex border-[#0D734D] ' name='user_email' />
+                                <input type="email" className='border-2 rounded-lg p-3 flex border-[#FFBC70] ' name='user_email' />
                             </div>
 
                             <div className='flex flex-col py-2 '>
                                 <label className='uppercase text-sm py-2'>Assunto</label>
-                                <input type="text" className='border-2 rounded-lg p-3 flex border-[#0D734D] ' name='user_asunto' />
+                                <input type="text" className='border-2 rounded-lg p-3 flex border-[#FFBC70] ' name='user_asunto' />
                             </div>
 
                             <div className='flex flex-col py-2 '>
                                 <label className='uppercase text-sm py-2'>Mensagem</label>
-                                <textarea className='border-2 rounded-lg p-3 border-[#0D734D]' rows='10' name='message'></textarea>
+                                <textarea className='border-2 rounded-lg p-3 border-[#FFBC70]' rows='10' name='message'></textarea>
                             </div>
 
                             <button className='w-full p-4 text-gray-900 mt-4' >Enviar Mensagen</button>
@@ -109,8 +109,8 @@ const Contato = () => {
 
             <div className='flex justify-center py-12'>
                 <Link href=''>
-                    <div className='rounded-full shadow-lg shadow-green-900/20 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <HiOutlineChevronDoubleUp className='text-green-800' size={30}/>
+                    <div className='rounded-full shadow-lg shadow-[#252518] p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <HiOutlineChevronDoubleUp className='text-[#E7A14B]' size={30}/>
                     </div>
                 </Link>
             </div>

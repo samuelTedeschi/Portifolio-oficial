@@ -24,19 +24,19 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center '>
             <div>
-                <p className='uppercase text-sm tracking-winter text-gray-400'>
+                <p className='uppercase text-sm tracking-winter text-[#B8BEBF]'>
                     {text}
-                    <Cursor cursorColor="green"/>
+                    <Cursor cursorColor="yellow"/>
                 </p>
 
-                <h1 className='py-4 text-[#D9D9D9]'>
-                    Olá, me chamo
-                    <span className='text-[#078C4E]'> Samuel </span>
+                <h1 className='py-4 text-[#FBF6EF]'>
+                    Olá! Me chamo
+                    <span className='text-[#E3943B]'> Samuel </span>
                 </h1>
-                <h1 className='py-2 text-[#D9D9D9]'>
+                <h1 className='py-2 text-[#FBF6EF]'>
                     Desenvolvedor Front-End
                 </h1>
-                <p className='py-4 text-gray-400 max-w-[70%] m-auto'>
+                <p className='py-4 text-[#FBF6EF] max-w-[70%] m-auto'>
                 Estou disposto a novas aventuras e desafios que possam me ajudar a crescer e me desenvolver como profissional.
                 Possuo conhecimento tanto em HTML, CSS, JavaScript quanto em bibliotecas e frameworks usadas para desenvolver webpages,
                 como Tailwind CSS e React, entre outros. Estou sempre pronto para aproveitar oportunidades que possam me ensinar novas habilidades
@@ -49,7 +49,7 @@ const Main = () => {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <div className='rounded-full shadow-lg bg-[#404040] shadow-green-900/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg bg-[#4C4C43] shadow-[#0B0B09] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaLinkedinIn size={20} className='text-sky-700'/>
                         </div>
                     </a>
@@ -59,19 +59,19 @@ const Main = () => {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <div className='rounded-full shadow-lg  bg-[#404040] shadow-green-900/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg  bg-[#4C4C43] shadow-[#0B0B09] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaGithub size={20} className='text-black'/>
                         </div>
                     </a>
 
                     <Link href='/#contato'>
-                        <div className='rounded-full shadow-lg  bg-[#404040] shadow-green-900/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg  bg-[#4C4C43] shadow-[#0B0B09] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail size={20} className='text-red-500'/>
                         </div>
                     </Link>
 
                     <Link href='/#sobre'>
-                        <div className='rounded-full shadow-lg  bg-[#404040] shadow-green-900/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg  bg-[#4C4C43] shadow-[#0B0B09] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <BsFillPersonLinesFill size={20} className='text-gray-900'/>
                         </div>
                     </Link>

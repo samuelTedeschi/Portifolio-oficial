@@ -11,8 +11,8 @@ const Projetos = () => {
   return (
     <div id='projetos' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <p className='text-xl tracking-widest uppercase text-[#078C4E]'>Projetos</p>
-            <h2 className='py-4 text-[#0D734D]'>Projetos que eu construi</h2>
+            <p className='text-xl tracking-widest uppercase text-[#FFAC47]'>Projetos</p>
+            <h2 className='py-4 text-[#FBF6EF]'>Projetos que eu construi</h2>
 
             <div className='grid md:grid-cols-2 gap-8 '>
 
